@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "",
+        "name": "KitPvP-RP",
+        "uuid": "f5ecece4-db67-4e74-8217-67f17be9353c",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 16, 0]
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "resources",
+            "uuid": "b32e4b49-3e99-469a-80da-719e7077bec0",
+            "version": [1, 0, 0]
+        }
+    ]
+}
