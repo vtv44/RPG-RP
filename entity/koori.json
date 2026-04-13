@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "kitpvp:koori",
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "geometry": {
+                "default": "geometry.koori"
+            },
+            "textures": {
+                "default": "textures/entity/koori"
+            },
+            "materials": {
+                "default": "entity"
+            }
+        }
+    }
+}

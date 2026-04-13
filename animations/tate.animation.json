@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.tate.first": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [20.84407, 33.31037, 244.19271],
+					"position": [0.225, 392.475, 1.375]
+				}
+			}
+		},
+		"animation.tate.third": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [87.53779, -0.75863, 89.59823],
+					"position": [-3.475, -6.45, -10.175]
+				}
+			}
+		}
+	}
+}

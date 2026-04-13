@@ -1,0 +1,58 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ryouri",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "head",
+					"pivot": [8, 0, -8],
+					"cubes": [
+						{
+							"origin": [-6.5, 1, -6.5],
+							"size": [13, 5, 13],
+							"uv": {
+								"north": {"uv": [14, 38], "uv_size": [13, 5]},
+								"east": {"uv": [28, 38], "uv_size": [13, 5]},
+								"south": {"uv": [42, 38], "uv_size": [13, 5]},
+								"west": {"uv": [0, 44], "uv_size": [13, 5]},
+								"down": {"uv": [30, 13], "uv_size": [13, -13]}
+							}
+						},
+						{
+							"origin": [-6.75, 6, -6.75],
+							"size": [13.5, 7, 13.5],
+							"uv": {
+								"north": {"uv": [14, 30], "uv_size": [14, 7]},
+								"east": {"uv": [30, 14], "uv_size": [14, 7]},
+								"south": {"uv": [30, 22], "uv_size": [14, 7]},
+								"west": {"uv": [29, 30], "uv_size": [14, 7]},
+								"up": {"uv": [0, 0], "uv_size": [14, 14]},
+								"down": {"uv": [0, 29], "uv_size": [14, -14]}
+							}
+						},
+						{
+							"origin": [-7, 9, -7],
+							"size": [14, 3, 14],
+							"uv": {
+								"north": {"uv": [44, 0], "uv_size": [14, 3]},
+								"east": {"uv": [44, 4], "uv_size": [14, 3]},
+								"south": {"uv": [44, 8], "uv_size": [14, 3]},
+								"west": {"uv": [14, 44], "uv_size": [14, 3]},
+								"up": {"uv": [15, 0], "uv_size": [14, 14]},
+								"down": {"uv": [15, 29], "uv_size": [14, -14]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

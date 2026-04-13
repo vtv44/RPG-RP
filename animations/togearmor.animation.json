@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.kitpvp.togearmor": {
+            "loop": true,
+            "bones": {
+                "rightArm": {
+                    "position": [-5.8, -6, -0.7]
+				},
+				
+				"leftArm": {
+					"position": [5.8, -6, -0.7]
+				},
+				"body": {
+					"position": [0.5,-3.5,-0.7]
+				}
+				  	
+				}
+			}
+		}
+	}

@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dice",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "rightArm",
+					"pivot": [-5, 22, 0],
+					"rotation": [-10, 0, 0]
+				},
+				{
+					"name": "rightItem",
+					"parent": "rightArm",
+					"pivot": [-5, 22, 0],
+					"cubes": [
+						{"origin": [-10, 14, -8], "size": [7, 7, 7], "pivot": [-6, 17, -5], "rotation": [0, 45, 0], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.thunder.first": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [108.97937, 56.48731, 311.22821],
+					"position": [0.225, -18.525, 2.375]
+				}
+			}
+		},
+		"animation.thunder.third": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [67.40116, -2.49277, 2.06776],
+					"position": [-1.125, -8.275, -8.275]
+				}
+			}
+		}
+	}
+}

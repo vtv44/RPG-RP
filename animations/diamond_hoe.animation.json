@@ -1,0 +1,22 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.sickie": {
+            "loop": true,
+            "bones": {
+                "root_item": {
+                    "position": [
+                        "c.is_first_person ? 10.0 : 2.1",
+                        "c.is_first_person ? -21.0 : -16.0",
+                        "c.is_first_person ? 3.0 : 0.0"
+                    ],
+                    "rotation": [
+                        "c.is_first_person ? 90.0 : 0.0",
+                        "c.is_first_person ? -180.0 : 0.0",
+                        "c.is_first_person ? 30.0 : 0.0"
+                    ]
+                }
+            }
+        }
+    }
+}

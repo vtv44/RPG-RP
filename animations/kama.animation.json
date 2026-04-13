@@ -1,0 +1,22 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.kama": {
+            "loop": true,
+            "bones": {
+                "rightArm": {
+                    "position": [
+                        "c.is_first_person ? 0.0 : 7.1",
+                        "c.is_first_person ? -30.0 : -15.0",
+                        "c.is_first_person ? 25.0 : -7.0"
+                    ],
+                    "rotation": [
+                        "c.is_first_person ? -10.0 : 0.0",
+                        "c.is_first_person ? 10.0 : 0.0",
+                        "c.is_first_person ? 200.0 : 0.0"
+                    ]
+                }
+            }
+        }
+    }
+}

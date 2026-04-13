@@ -1,0 +1,51 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "rca:sukima",
+			"basic_render_parameters": {
+				"material": "particles_blend",
+				"texture": "textures/rca/eye1"
+			}
+		},
+		"components": {
+			"minecraft:emitter_rate_steady": {
+				"spawn_rate": 200,
+				"max_particles": 100
+			},
+			"minecraft:emitter_lifetime_looping": {
+				"active_time": 0.3
+			},
+			"minecraft:emitter_shape_point": {
+				"offset": ["math.random(-2,2)", "math.random(-0.7,0.7)", "math.random(-2,2)"]
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": "math.random(0.3,0.5)"
+			},
+			"minecraft:particle_initial_spin": {
+				"rotation": "math.random(-180, 180)"
+			},
+			"minecraft:particle_initial_speed": 0,
+			"minecraft:particle_motion_dynamic": {},
+			"minecraft:particle_appearance_billboard": {
+				"size": [0.6, 0.6],
+				"facing_camera_mode": "rotate_xyz",
+				"uv": {
+					"texture_width": 16,
+					"texture_height": 16,
+					"uv": [0, 0],
+					"uv_size": [16, 16]
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "v.particle_age / v.particle_lifetime",
+					"gradient": {
+						"0.0": "#C4FFFFFF",
+						"1.0": "#CCB683FF"
+					}
+				}
+			}
+		}
+	}
+}

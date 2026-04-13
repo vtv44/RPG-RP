@@ -1,0 +1,20 @@
+{
+    "format_version": "1.21.44",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "kitpvp:dona",
+            "materials": {
+                "default": "entity"
+            },
+            "textures": {
+                "default": "textures/entity/dona"
+            },
+            "geometry": {
+                "default": "geometry.dona"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}

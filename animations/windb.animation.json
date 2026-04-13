@@ -1,0 +1,44 @@
+{
+	"format_version" : "1.8.0",
+	"animations": {
+		"animation.elytra.default": {
+			"loop": true,
+			"bones": {
+				"left_wing": {
+					"position": [ -4, -7, 3 ],
+					"rotation": [ 0, 0, -90 ]
+				},
+				"right_wing": {
+					"position": [ 4, -7, 3 ],
+					"rotation": [ 0, 0, 90 ]
+				}
+			}
+		},
+		"animation.elytra.gliding": {
+			"loop": true,
+			"bones": {
+				"left_wing": {
+					"position": [ -4, -7, 3 ],
+					"rotation": [ "variable.ratio = (query.position_delta(1) < 0) ? 1 - math.pow(-query.movement_direction(1), 1.5) : 1; return math.lerp(15, 30, variable.ratio);", 0, "math.lerp(-90, -15, variable.ratio)" ]
+				},
+				"right_wing": {
+					"position": [ 4, -7, 3 ],
+					"rotation": [ "variable.ratio = (query.position_delta(1) < 0) ? 1 - math.pow(-query.movement_direction(1), 1.5) : 1; return math.lerp(15, 30, variable.ratio);", 0, "-math.lerp(-90, -15, variable.ratio)" ]
+				}
+			}
+		},
+		"animation.elytra.sneaking": {
+			"loop": true,
+			"bones": {
+				"left_wing": {
+					"position": [ -4, -9, 3 ],
+					"rotation": [ 0, 0, -65 ]
+				},
+				"right_wing": {
+					"position": [ 4, -9, 3 ],
+					"rotation": [ 0, 0, 65 ]
+				}
+			}
+		}
+	}
+}

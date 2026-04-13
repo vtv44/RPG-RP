@@ -1,0 +1,19 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.kitpvp.jakin": {
+            "loop": true,
+            "bones": {
+                "rightArm": {
+                    "position": [-2,-11,-1.5],
+                    "scale": [1,2,1]
+
+                },"leftArm": {
+                    "position": [2,-11,-1.5],
+                    "scale": [1,2,1]                    
+                }
+
+            }
+        }
+    }
+}

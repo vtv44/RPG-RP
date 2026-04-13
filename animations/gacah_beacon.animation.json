@@ -1,0 +1,178 @@
+{
+    "format_version": "1.21.44",
+    "animations": {
+        "animation.gacha_beacon.normal": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "rotation": [ 0, "math.abs(query.life_time * 180)", 0 ],
+                    "position": [ 0, "math.sin(query.life_time * 90) * 6", 0 ],
+                    "scale": 1.5
+                },
+                "normal": {
+                    "scale": 1.0
+                },
+                "red": {
+                    "scale": 0.01
+                },
+                "yellow": {
+                    "scale": 0.01
+                },
+                "lime": {
+                    "scale": 0.01
+                },
+                "magenta": {
+                    "scale": 0.01
+                },
+                "blue": {
+                    "scale": 0.01
+                }
+            }
+        },
+
+        "animation.gacha_beacon.red": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "rotation": [ 0, "math.abs(query.life_time * 180)", 0 ],
+                    "position": [ 0, "math.sin(query.life_time * 90) * 6", 0 ],
+                    "scale": 1.5
+                },
+                "normal": {
+                    "scale": 0.01
+                },
+                "red": {
+                    "scale": 1.0
+                },
+                "yellow": {
+                    "scale": 0.01
+                },
+                "lime": {
+                    "scale": 0.01
+                },
+                "magenta": {
+                    "scale": 0.01
+                },
+                "blue": {
+                    "scale": 0.01
+                }
+            }
+        },
+
+        "animation.gacha_beacon.yellow": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "rotation": [ 0, "math.abs(query.life_time * 180)", 0 ],
+                    "position": [ 0, "math.sin(query.life_time * 90) * 6", 0 ],
+                    "scale": 1.5
+                },
+                "normal": {
+                    "scale": 0.01
+                },
+                "red": {
+                    "scale": 0.01
+                },
+                "yellow": {
+                    "scale": 1.0
+                },
+                "lime": {
+                    "scale": 0.01
+                },
+                "magenta": {
+                    "scale": 0.01
+                },
+                "blue": {
+                    "scale": 0.01
+                }
+            }
+        },
+
+        "animation.gacha_beacon.lime": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "rotation": [ 0, "math.abs(query.life_time * 180)", 0 ],
+                    "position": [ 0, "math.sin(query.life_time * 90) * 6", 0 ],
+                    "scale": 1.5
+                },
+                "normal": {
+                    "scale": 0.01
+                },
+                "red": {
+                    "scale": 0.01
+                },
+                "yellow": {
+                    "scale": 0.01
+                },
+                "lime": {
+                    "scale": 1.0
+                },
+                "magenta": {
+                    "scale": 0.01
+                },
+                "blue": {
+                    "scale": 0.01
+                }
+            }
+        },
+
+        "animation.gacha_beacon.magenta": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "rotation": [ 0, "math.abs(query.life_time * 180)", 0 ],
+                    "position": [ 0, "math.sin(query.life_time * 90) * 6", 0 ],
+                    "scale": 1.5
+                },
+                "normal": {
+                    "scale": 0.01
+                },
+                "red": {
+                    "scale": 0.01
+                },
+                "yellow": {
+                    "scale": 0.01
+                },
+                "lime": {
+                    "scale": 0.01
+                },
+                "magenta": {
+                    "scale": 1.0
+                },
+                "blue": {
+                    "scale": 0.01
+                }
+            }
+        },
+
+        "animation.gacha_beacon.blue": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "rotation": [ 0, "math.abs(query.life_time * 180)", 0 ],
+                    "position": [ 0, "math.sin(query.life_time * 90) * 6", 0 ],
+                    "scale": 1.5
+                },
+                "normal": {
+                    "scale": 0.01
+                },
+                "red": {
+                    "scale": 0.01
+                },
+                "yellow": {
+                    "scale": 0.01
+                },
+                "lime": {
+                    "scale": 0.01
+                },
+                "magenta": {
+                    "scale": 0.01
+                },
+                "blue": {
+                    "scale": 1.0
+                }
+            }
+        }
+    }
+}

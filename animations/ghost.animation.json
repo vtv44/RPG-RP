@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.ghost.first": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [85.36832, 61.10928, -53.0304],
+					"position": [1, -15, 4],
+					"scale": 0.3
+				}
+			}
+		},
+		"animation.ghost.third": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [12.5, 0, 0],
+					"position": [1.9, -17, -0.75],
+					"scale": 0.3
+				}
+			}
+		}
+	}
+}

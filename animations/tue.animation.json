@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.tue.first": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [36.31542, 8.88584, 232.59958],
+					"position": [21.225, -10.875, 12.025],
+					"scale": 3.0
+				}
+			}
+		},
+		"animation.tue.third": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [67.40116, -2.49277, 2.06776],
+					"position": [13.25, -21.75, -3.825],
+					"scale": 1.8
+				}
+			}
+		}
+	}
+}

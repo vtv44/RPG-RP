@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.frost.first": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [65.87714, 59.76106, 289.48833],
+					"position": [0.225, -18.525, 2.375]
+				},
+				"chest": {
+					"position": [34, -51, -19]
+				},
+				"bone": {
+					"rotation": [-73.16759, 20.55812, 1.18319],
+					"position": [-7.8, 1.45, -4]
+				}
+			}
+		},
+		"animation.frost.third": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [10, 0, 0],
+					"position": [-0.05, -7.05, -11.925]
+				},
+				"chest": {
+					"position": [0, 11, -10.125]
+				},
+				"bone": {
+					"position": [0, -4.975, 4.1]
+				}
+			}
+		}
+	}
+}

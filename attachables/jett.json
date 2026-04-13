@@ -1,0 +1,28 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "kitpvp:jett",
+            "materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_alphatest_glint"
+            },
+            "textures": {
+                "default": "textures/entity/jett",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.jett"
+            },
+            "animations": {
+                "jett": "animation.kitpvp.jett"
+            },
+            "scripts": {
+                "animate": [ "jett" ]
+            },
+            "render_controllers": [
+                "controller.render.item_default"
+            ]
+        }
+    }
+}

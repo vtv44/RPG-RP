@@ -1,0 +1,20 @@
+{
+    "format_version": "1.21.44",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "kitpvp:hitode",
+            "materials": {
+                "default": "entity"
+            },
+            "textures": {
+                "default": "textures/entity/hitode"
+            },
+            "geometry": {
+                "default": "geometry.hitode"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}

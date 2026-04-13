@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.cosmicannihilator.first": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [40.52822, 10.10776, -140.80075],
+					"position": [1, -8, 9]
+				}
+			}
+		},
+		"animation.cosmicannihilator.third": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [87.5, 0, 0],
+					"position": [7.675, -14.6, -14.75]
+				}
+			}
+		}
+	}
+}

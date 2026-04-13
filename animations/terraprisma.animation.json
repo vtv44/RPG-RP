@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.terraprisma.first": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [32.25641, -59.12215, 133.91176],
+					"position": [-3, -14, 1]
+				}
+			}
+		},
+		"animation.terraprisma.third": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [92.5, 0, 0],
+					"position": [0, -14, -6]
+				}
+			}
+		}
+	}
+}

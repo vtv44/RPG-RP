@@ -1,0 +1,26 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.hat",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "hat",
+					"binding": "q.item_slot_to_bone_name(context.item_slot)",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 0, -6], "size": [12, 4, 12], "uv": [0, 0]},
+						{"origin": [-4, 4, -4], "size": [8, 8, 8], "uv": [0, 16]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.kitpvp.hat": {
+            "loop": true,
+            "bones": {
+                "hat": {
+                    "position": [ 0, 30, 0 ],
+                    "rotation": [ 0, 0, 0 ],
+                    "scale": [ 1, 1, 1 ]
+                }
+            }
+        }
+    }
+}

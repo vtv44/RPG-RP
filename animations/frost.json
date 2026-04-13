@@ -1,0 +1,22 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.frost": {
+            "loop": true,
+            "bones": {
+                "rightArm": {
+                    "position": [
+                        "c.is_first_person ? 0.0 : -0.9",
+                        "c.is_first_person ? 100.0 : -10.0",
+                        "c.is_first_person ? 0.0 : -7.0"
+                    ],
+                    "rotation": [
+                        "c.is_first_person ? 0.0 : 0.0",
+                        "c.is_first_person ? 0.0 : 0.0",
+                        "c.is_first_person ? 0.0 : 0.0"
+                    ]
+                }
+            }
+        }
+    }
+}

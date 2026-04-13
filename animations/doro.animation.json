@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.doro.first": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [151.75648, -40.02932, 59.72343],
+					"position": [3, -13, 19.25]
+				}
+			}
+		},
+		"animation.doro.third": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [92.5, 0, 0],
+					"position": [6.275, -15.9, 1.9]
+				}
+			}
+		}
+	}
+}

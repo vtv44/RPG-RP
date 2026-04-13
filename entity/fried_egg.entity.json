@@ -1,0 +1,28 @@
+{
+    "format_version": "1.21.44",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "kitpvp:fried_egg",
+            "materials": {
+                "default": "entity"
+            },
+            "textures": {
+                "default": "textures/items/apple"
+            },
+            "scripts": {
+                "animate": [
+                    "setup"
+                ]
+            },
+            "animations": {
+                "setup": "animation.chef_food.setup"
+            },
+            "geometry": {
+                "default": "geometry.fried_egg"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}

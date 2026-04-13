@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.niji.first": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [54.81907, 45.83403, -79.65824],
+					"position": [20, -18, 3]
+				}
+			}
+		},
+		"animation.niji.third": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [70, 0, 0],
+					"position": [7.675, -11.925, -11.425]
+				}
+			}
+		}
+	}
+}

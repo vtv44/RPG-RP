@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.dark.first": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [130.41884, -20.54634, 60.80655],
+					"position": [1, -23, 25]
+				}
+			}
+		},
+		"animation.dark.third": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [92.5, 0, 0],
+					"position": [6.95, -16.275, -6]
+				}
+			}
+		}
+	}
+}

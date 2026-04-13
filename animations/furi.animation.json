@@ -1,0 +1,22 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.furi": {
+            "loop": true,
+            "bones": {
+                "rightArm": {
+                    "position": [
+                        "c.is_first_person ? 0.0 : 7.4",
+                        "c.is_first_person ? -24.0 : 0.0",
+                        "c.is_first_person ? -13.0 : -21.5"
+                    ],
+                    "rotation": [
+                        "c.is_first_person ? -20.0 : -90.0",
+                        "c.is_first_person ? 10.0 : 0.0",
+                        "c.is_first_person ? 0.0 : 0.0"
+                    ]
+                }
+            }
+        }
+    }
+}

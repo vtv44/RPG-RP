@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.icee.first": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [166.96164, -38.93186, 62.81578],
+					"position": [6.375, -11.275, 16.1]
+				}
+			}
+		},
+		"animation.icee.third": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [92.5, 0, 0],
+					"position": [6.9, -14, 1]
+				}
+			}
+		}
+	}
+}

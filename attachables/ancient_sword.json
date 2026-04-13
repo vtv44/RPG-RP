@@ -1,0 +1,26 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "kitpvp:ancient_sword",
+            "materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_alphatest_glint"
+            },
+            "textures": {
+                "default": "textures/entity/ancient_sword",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.ancient_sword"
+            },
+             "animations": {
+                "ancient_sword.normal": "animation.ancient_sword"
+            },
+            "scripts": {
+                "animate": [ "ancient_sword.normal" ]
+                    },
+            "render_controllers": ["controller.render.item_default"]
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.kitpvp.hima": {
+            "loop": true,
+            "bones": {
+                "rightArm": {
+                    "position": [-6.5, -9, 0]
+				},
+				
+				"leftArm": {
+					"position": [6.5, -9, 0]
+				},
+				"body": {
+					"position": [0,-6,-0.5]
+				},
+				"Head": {
+					"position": [8,-22,-8]
+				},
+				"rightleg": {
+                    "position": [10,-17,-8]
+
+                },"leftleg": {
+                    "position": [-10,-17,-8]
+				} 	
+				}
+			}
+		}
+	}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.sworddesu.first": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [88.89284, 70.40004, 302.52751],
+					"position": [14.225, -17.525, 4.375]
+				}
+			}
+		},
+		"animation.sworddesu.third": {
+			"loop": true,
+			"animation_length": 0.4583,
+			"bones": {
+				"rightArm": {
+					"rotation": [84.90116, -2.49277, 2.06776],
+					"position": [5.175, -14.95, -5.25],
+					"scale": [0.8, 1, 1]
+				}
+			}
+		}
+	}
+}

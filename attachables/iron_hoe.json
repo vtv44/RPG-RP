@@ -1,0 +1,26 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "minecraft:iron_hoe",
+            "materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_alphatest_glint"
+            },
+            "textures": {
+                "default": "textures/entity/wand",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.wand"
+            },
+             "animations": {
+                "iron_hoe.normal": "animation.iron_hoe"
+            },
+            "scripts": {
+                "animate": [ "iron_hoe.normal" ]
+                    },
+            "render_controllers": ["controller.render.item_default"]
+        }
+    }
+}

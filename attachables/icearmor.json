@@ -1,0 +1,28 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "kitpvp:icearmor",
+            "materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_alphatest_glint"
+            },
+            "textures": {
+                "default": "textures/entity/icearmor",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.icearmor"
+            },
+            "animations": {
+                "icearmor": "animation.kitpvp.icearmor"
+            },
+            "scripts": {
+                "animate": [ "icearmor" ]
+            },
+            "render_controllers": [
+                "controller.render.item_default"
+            ]
+        }
+    }
+}

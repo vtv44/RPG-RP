@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.death.first": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [87.83799, 50.19382, -62.1472],
+					"position": [10, -12, 4]
+				}
+			}
+		},
+		"animation.death.third": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [62.5, 0, 0],
+					"position": [6.975, -19.35, -6.5]
+				}
+			}
+		}
+	}
+}

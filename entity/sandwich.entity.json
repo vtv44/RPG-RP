@@ -1,0 +1,28 @@
+{
+    "format_version": "1.21.44",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "kitpvp:sandwich",
+            "materials": {
+                "default": "entity"
+            },
+            "textures": {
+                "default": "textures/items/fish_salmon_cooked"
+            },
+            "scripts": {
+                "animate": [
+                    "setup"
+                ]
+            },
+            "animations": {
+                "setup": "animation.chef_food.setup"
+            },
+            "geometry": {
+                "default": "geometry.sandwich"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}

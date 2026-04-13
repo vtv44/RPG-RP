@@ -1,0 +1,19 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.kitpvp.wizards_robe": {
+            "loop": true,
+            "bones": {
+                "wizards_cape" : {
+                    "rotation" : [ "math.lerp(0.0, 1.0, query.cape_flap_amount) * 45", 0, 0 ]
+                	},
+                "leftArm" : {
+                    "position" : [ 1, 1, 0 ]
+                },
+                "rightArm" : {
+                    "position" : [ -1, 1.5, 0 ]
+                }
+			} 	
+		}
+	}
+}

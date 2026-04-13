@@ -1,0 +1,64 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.windb",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "left_wing",
+					"parent": "body",
+					"pivot": [0, 7, 0],
+					"cubes": [
+						{
+							"origin": [-15, 0, 0],
+							"size": [15, 12, 1],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [15, 12]},
+								"east": {"uv": [0, 30], "uv_size": [1, 12]},
+								"south": {"uv": [15, 0], "uv_size": [-15, 12]},
+								"west": {"uv": [2, 30], "uv_size": [1, 12]},
+								"up": {"uv": [0, 26], "uv_size": [15, 1]},
+								"down": {"uv": [16, 27], "uv_size": [15, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "right_wing",
+					"parent": "body",
+					"pivot": [0, 7, 0],
+					"cubes": [
+						{
+							"origin": [0, 0, 0],
+							"size": [15, 12, 1],
+							"uv": {
+								"north": {"uv": [16, 0], "uv_size": [15, 12]},
+								"east": {"uv": [4, 30], "uv_size": [1, 12]},
+								"south": {"uv": [31, 0], "uv_size": [-15, 12]},
+								"west": {"uv": [6, 30], "uv_size": [1, 12]},
+								"up": {"uv": [0, 28], "uv_size": [15, 1]},
+								"down": {"uv": [16, 29], "uv_size": [15, -1]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.kitpvp.magichat": {
+            "loop": true,
+            "bones": {
+                "head": {
+                    "position": [8,5,-7.5]                    
+                },
+                "rightArm": {
+                    "position": [-1.5,1.5,0]
+                },
+                "leftArm": {
+                    "position": [1.5,1.5,0]
+                },
+                "wizards_cape": {
+                    "position": [0,0,0],
+                "rotation" : [ "math.lerp(0.0, 1.0, query.cape_flap_amount) * 45", 0, 0 ]
+                },
+                "body": {
+                    "position": [0,0,0]
+                }
+            }    
+        }
+    }
+}

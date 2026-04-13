@@ -1,0 +1,22 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.sugoyumi": {
+            "loop": true,
+            "bones": {
+                "rightArm": {
+                    "position": [
+                        "c.is_first_person ? -3.0 : 7.1",
+                        "c.is_first_person ? -2.0 : -15.0",
+                        "c.is_first_person ? -13.0 : 8.9"
+                    ],
+                    "rotation": [
+                        "c.is_first_person ? 0.0 : 90.0",
+                        "c.is_first_person ? 60.0 : 0.0",
+                        "c.is_first_person ? 200.0 : 0.0"
+                    ]
+                }
+            }
+        }
+    }
+}

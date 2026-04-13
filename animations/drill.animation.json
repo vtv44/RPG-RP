@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.drill.first": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [31.83983, 51.33218, 215.05336],
+					"position": [-5, -3, -10]
+				}
+			}
+		},
+		"animation.drill.third": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [92.5, 0, 0],
+					"position": [6.825, -16.25, -6.575]
+				}
+			}
+		}
+	}
+}

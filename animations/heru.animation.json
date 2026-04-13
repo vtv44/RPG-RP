@@ -1,0 +1,18 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.kitpvp.heru": {
+            "loop": true,
+            "bones": {
+                "rightleg": {
+                    "position": [-6.78,-13,-7]
+
+                },"leftleg": {
+                    "position": [6.78,-13,-7]
+                    
+                }
+
+            }
+        }
+    }
+}

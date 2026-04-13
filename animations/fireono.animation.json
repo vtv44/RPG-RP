@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.fireono.first": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [70.84977, 47.37379, -84.59929],
+					"position": [9, -7, 5]
+				}
+			}
+		},
+		"animation.fireono.third": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [62.5, 0, 0],
+					"position": [7.675, -19.35, -0.5]
+				}
+			}
+		}
+	}
+}

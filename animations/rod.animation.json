@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.rod.first": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [40.52822, 10.10776, -140.80075],
+					"position": [1, -8, 9]
+				}
+			}
+		},
+		"animation.rod.third": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [62.5, 0, 0],
+					"position": [7.675, -19.35, -0.5]
+					
+				}
+			}
+		}
+	}
+}

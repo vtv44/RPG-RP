@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.kaminari.first": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [20.84407, 33.31037, 244.19271],
+					"position": [0.225, -4.525, 1.375]
+				},
+				"chest": {
+					"position": [34, -51, -19]
+				}
+			}
+		},
+		"animation.kaminari.third": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [92.5, 0, 0],
+					"position": [1.525, -9.325, 7.2]
+				},
+				"chest": {
+					"position": [7.65, 11, 2.875],
+					"scale": 2
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,185 @@
+{
+    "resource_pack_name": "KitPvP-RP",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "dice": {
+            "textures": "textures/items/dice"
+        },
+        "hat": {
+            "textures": "textures/items/hat"
+        },
+        "cosmilite_bar": {
+            "textures": "textures/items/cosmilite_bar"
+        },
+        "ashes_of_annihilation": {
+            "textures": "textures/items/ashes_of_annihilation"
+        },
+        "exo_prism": {
+            "textures": "textures/items/exo_prism"
+        },
+        "crown": {
+            "textures": "textures/items/crown"
+        },
+        "fireegg": {
+            "textures": "textures/items/fireegg"
+        },
+        "megane": {
+            "textures": "textures/items/megane"
+        },
+        "wand": {
+            "textures": "textures/items/wand"
+        },
+        "tnt_costume": {
+            "textures": "textures/blocks/tnt_side"
+        },
+        "kama": {
+            "textures": "textures/items/kama"
+        },
+        "hane": {
+            "textures": "textures/items/hane"
+        },
+        "tnt_chestplate": {
+            "textures": "textures/items/tnt_chestplate"
+        },
+        "terraprisma": {
+            "textures": "textures/items/terraprisma"
+        },
+        "vtv_doll": {
+            "textures": "textures/items/vtv_doll"
+        },
+        "frost": {
+            "textures": "textures/items/frost"
+        },
+        "ckn_doll": {
+            "textures": "textures/items/ckn_doll"
+        },
+        "nasubi_doll": {
+            "textures": "textures/items/nasubi_doll"
+        },
+        "peppu_doll": {
+            "textures": "textures/items/peppu_doll"
+        },
+        "magichat": {
+            "textures": "textures/items/magichat"
+        },
+        "scarf": {
+            "textures": "textures/items/scarf"
+        },
+        "ancient_sword": {
+            "textures": "textures/items/ancient_sword"
+        },
+        "wizards_robe": {
+            "textures": "textures/items/wizards_robe"
+        },
+        "bee": {
+            "textures": "textures/items/bee"
+        },
+        "oto": {
+            "textures": "textures/items/oto"
+        },
+        "pancake": {
+            "textures": "textures/items/pancake"
+        },
+        "tate": {
+            "textures": "textures/items/tate"
+        },
+        "thunder": {
+            "textures": "textures/items/thunder"
+        },
+        "void0": {
+            "textures": "textures/items/void0"
+        },
+        "void1": {
+            "textures": "textures/items/void1"
+        },
+        "dark": {
+            "textures": "textures/items/dark"
+        },
+        "admin": {
+            "textures": "textures/items/admin"
+        },
+        "drill": {
+            "textures": "textures/items/drill"
+        },
+        "furi": {
+            "textures": "textures/items/furi"
+        },
+        "tue": {
+            "textures": "textures/items/tue"
+        },
+        "icee": {
+            "textures": "textures/items/icee"
+        },
+        "doro": {
+            "textures": "textures/items/doro"
+        },
+        "icearmor": {
+            "textures": "textures/items/icearmor"
+        },
+        "afuro": {
+            "textures": "textures/items/afuro"
+        },
+        "aqu": {
+            "textures": "textures/items/aqu"
+        },
+        "cowboy": {
+            "textures": "textures/items/cowboy"
+        },
+        "fireono": {
+            "textures": "textures/items/fireono"
+        },
+        "sworddesu": {
+            "textures": "textures/items/sworddesu"
+        },
+        "niji": {
+            "textures": "textures/items/niji"
+        },
+        "nij": {
+            "textures": "textures/items/nij"
+        },
+        "diced_steak": {
+            "textures": "textures/items/diced_steak"
+        },
+        "yuto_doll": {
+            "textures": "textures/items/yuto_doll"
+        },
+        "hr_doll": {
+            "textures": "textures/items/hr_doll"
+        },
+        "meme_doll": {
+            "textures": "textures/items/meme_doll"
+        },
+        "ryouri": {
+            "textures": "textures/items/ryouri"
+        },
+        "kaminari": {
+            "textures": "textures/items/kaminari"
+        },
+        "kari":{
+            "textures": "textures/items/kari"
+        },
+        "katana": {
+            "textures": "textures/items/katana"
+        },
+        "shuriken":{
+            "textures": "textures/items/shuriken"
+        },
+        "void2": {
+            "textures": "textures/items/void2"
+        },
+        "tia": {
+            "textures": "textures/items/tia"
+        },
+        "heru": {
+            "textures": "textures/items/heru"
+        },
+        "sugoyumi": {
+            "textures": "textures/items/sugoyumi"
+        },
+        "death": {
+            "textures": "textures/items/death"
+        },
+        "kinringo": {
+            "textures": "textures/items/kinringo"
+        }
+}}

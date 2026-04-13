@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.kitpvp.nij": {
+            "loop": true,
+            "bones": {
+				"body": {
+					"position": [0.5,-3.5,5],
+					"scale": [1.5,1.5,1.5]
+				},
+
+				"circle": {
+					"rotation" : [ 0, 0, "math.lerp(0.0, 1.0, query.cape_flap_amount) * 720" ]
+				},
+
+				"rightWing1": {
+					"rotation" : [ 0, "math.lerp(0.0, 1.0, query.cape_flap_amount) * 60", "-math.lerp(0.0, 1.0, query.cape_flap_amount) * 40" ]
+				},
+				"rightWing2": {
+					"rotation" : [ 0, "math.lerp(0.0, 1.0, query.cape_flap_amount) * 75", "-math.lerp(0.0, 1.0, query.cape_flap_amount) * 20" ]
+				},
+				"rightWing3": {
+					"rotation" : [ 0, "math.lerp(0.0, 1.0, query.cape_flap_amount) * 80", "-math.lerp(0.0, 1.0, query.cape_flap_amount) * 40" ]
+				},
+
+				"leftWing1": {
+					"rotation" : [ 0, "-math.lerp(0.0, 1.0, query.cape_flap_amount) * 60", "math.lerp(0.0, 1.0, query.cape_flap_amount) * 40" ]
+				},
+				"leftWing2": {
+					"rotation" : [ 0, "-math.lerp(0.0, 1.0, query.cape_flap_amount) * 75", "math.lerp(0.0, 1.0, query.cape_flap_amount) * 20" ]
+				},
+				"leftWing3": {
+					"rotation" : [ 0, "-math.lerp(0.0, 1.0, query.cape_flap_amount) * 80", "math.lerp(0.0, 1.0, query.cape_flap_amount) * 40" ]
+				}
+			}
+		}
+	}
+}

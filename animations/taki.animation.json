@@ -1,0 +1,27 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.kitpvp.taki": {
+            "loop": true,
+            "bones": {
+                "rightArm": {
+                    "position": [1.8, 0.5, -0.5]
+				},
+				
+				"leftArm": {
+					"position": [-1.8, 0.5, -0.5]
+				},
+				"body": {
+					"position": [1,5.5,-0.5]
+				},
+				"leftLeg": {
+					"position": [-2.2,0,-0.5]
+				},
+				"rightLeg": {
+					"position": [2.2,0,-0.5]
+				}
+				  	
+				}
+			}
+		}
+	}
