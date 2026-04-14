@@ -8,9 +8,50 @@
 					"position": [0,-3,-15.5],
 					"rotation": [-90,0,90],
 					"scale": [1.8,1.8,1.8]
-				}
-				  	
+				},
+				"1": {
+					"rotation": [ 
+						"-math.lerp(0.0, 1.0, query.cape_flap_amount) * -40", 
+						"math.lerp(0.0, 1.0, query.cape_flap_amount) * 20", 
+						"math.lerp(0.0, 1.0, query.cape_flap_amount) * 10"
+					]
+				},
+				"2": {
+					"rotation": [ 
+						"-math.lerp(0.0, 1.0, query.cape_flap_amount) * -10", 
+						"math.lerp(0.0, 1.0, query.cape_flap_amount) * 10", 
+						"math.lerp(0.0, 1.0, query.cape_flap_amount) * 40"
+					]
+				},
+				"3": {
+					"rotation": [ 
+						"-math.lerp(0.0, 1.0, query.cape_flap_amount) * 10", 
+						"math.lerp(0.0, 1.0, query.cape_flap_amount) * 30", 
+						"math.lerp(0.0, 1.0, query.cape_flap_amount) * -20"
+					]
+				},
+				"4": {
+					"rotation": [ 
+						"-math.lerp(0.0, 1.0, query.cape_flap_amount) * 10", 
+						"math.lerp(0.0, 1.0, query.cape_flap_amount) * 10", 
+						"math.lerp(0.0, 1.0, query.cape_flap_amount) * -40"
+					]
+				},
+				"5": {
+					"rotation": [ 
+						"-math.lerp(0.0, 1.0, query.cape_flap_amount) * 10", 
+						"math.lerp(0.0, 1.0, query.cape_flap_amount) * 20", 
+						"math.lerp(0.0, 1.0, query.cape_flap_amount) * 40"
+					]
+				},
+				"6": {
+					"rotation": [ 
+						"-math.lerp(0.0, 1.0, query.cape_flap_amount) * 10", 
+						"math.lerp(0.0, 1.0, query.cape_flap_amount) * 10", 
+						"math.lerp(0.0, 1.0, query.cape_flap_amount) * 30"
+					]
 				}
 			}
 		}
 	}
+}

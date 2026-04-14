@@ -8,7 +8,7 @@
 					"position": [ 15.5, 5, 2 ],
 					"rotation": [ 0, 90, 0 ],
 					"scale": [ 1.8, 1.8, 1.8 ]
-					},
+				},
 				"bone7": {
 					"rotation": [ 
 						"-math.lerp(0.0, 1.0, query.cape_flap_amount) * 20", 
