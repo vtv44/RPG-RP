@@ -1,0 +1,20 @@
+{
+    "format_version": "1.21.44",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "rpg:target",
+            "materials": {
+                "default": "entity"
+            },
+            "textures": {
+                "default": "textures/entity/rpg_target"
+            },
+            "geometry": {
+                "default": "geometry.rpg_target"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}

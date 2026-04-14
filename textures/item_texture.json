@@ -181,5 +181,17 @@
         },
         "kinringo": {
             "textures": "textures/items/kinringo"
+        },
+        "first_sword": {
+            "textures": "textures/items/weapons/first_sword"
+        },
+        "first_rod": {
+            "textures": "textures/items/weapons/first_rod"
+        },
+        "first_book": {
+            "textures": "textures/items/weapons/first_book"
+        },
+        "first_bow": {
+            "textures": "textures/items/weapons/first_bow"
         }
 }}
