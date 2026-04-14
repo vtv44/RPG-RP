@@ -1,9 +1,9 @@
 {
     "format_version": 2,
     "header": {
-        "description": "",
-        "name": "KitPvP-RP",
-        "uuid": "f5ecece4-db67-4e74-8217-67f17be9353c",
+        "description": "RPGのRP",
+        "name": "RPG-RP",
+        "uuid": "96682580-c883-438e-bcf1-4b9574b31279",
         "version": [1, 0, 0],
         "min_engine_version": [1, 16, 0]
     },
@@ -11,7 +11,7 @@
         {
             "description": "",
             "type": "resources",
-            "uuid": "b32e4b49-3e99-469a-80da-719e7077bec0",
+            "uuid": "05f4def2-a1a0-489e-ac0d-38866396e5e8",
             "version": [1, 0, 0]
         }
     ]
