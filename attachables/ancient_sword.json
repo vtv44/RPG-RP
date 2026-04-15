@@ -19,7 +19,7 @@
             },
             "scripts": {
                 "animate": [ "ancient_sword.normal" ]
-                    },
+            },
             "render_controllers": ["controller.render.item_default"]
         }
     }
