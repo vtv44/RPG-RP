@@ -182,6 +182,21 @@
         "kinringo": {
             "textures": "textures/items/kinringo"
         },
+        "copper_sword": {
+            "textures": "textures/items/weapons/copper_sword"
+        },
+        "copper_rod": {
+            "textures": "textures/items/weapons/copper_rod"
+        },
+        "copper_book": {
+            "textures": "textures/items/weapons/copper_book"
+        },
+        "copper_bow": {
+            "textures": "textures/items/weapons/copper_bow"
+        },
+        "copper_hammer": {
+            "textures": "textures/items/weapons/copper_bow"
+        },
         "first_sword": {
             "textures": "textures/items/weapons/first_sword"
         },
