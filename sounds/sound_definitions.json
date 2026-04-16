@@ -76,6 +76,16 @@
                     "volume": 5.0
                 }
             ]
+        },
+        "custom.The_Wither_King": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/custom/The_Wither_King",
+                    "stream": false,
+                    "volume": 5
+                }
+            ]       
         }
     }
 }
