@@ -195,7 +195,7 @@
             "textures": "textures/items/weapons/copper_bow"
         },
         "copper_hammer": {
-            "textures": "textures/items/weapons/copper_bow"
+            "textures": "textures/items/weapons/copper_hammer"
         },
         "first_sword": {
             "textures": "textures/items/weapons/first_sword"
