@@ -1,0 +1,71 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.rpg_copper_golem",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "copper_golem",
+					"pivot": [3, 5, -2]
+				},
+				{
+					"name": "head",
+					"parent": "copper_golem",
+					"pivot": [0, 11, 0],
+					"cubes": [
+						{"origin": [-4, 11, -5], "size": [8, 5, 10], "uv": [0, 0]},
+						{"origin": [-2, 20, -2], "size": [4, 4, 4], "uv": [37, 0]},
+						{"origin": [-1, 16, -1], "size": [2, 4, 2], "uv": [37, 8]}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "copper_golem",
+					"pivot": [0, 8, 0],
+					"cubes": [
+						{"origin": [-4, 5, -3], "size": [8, 6, 6], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "right_arm",
+					"parent": "copper_golem",
+					"pivot": [-5, 11, 0],
+					"cubes": [
+						{"origin": [-7, 1, -2], "size": [3, 10, 4], "uv": [36, 16]}
+					]
+				},
+				{
+					"name": "left_arm",
+					"parent": "copper_golem",
+					"pivot": [5, 11, 0],
+					"cubes": [
+						{"origin": [4, 1, -2], "size": [3, 10, 4], "uv": [50, 16]}
+					]
+				},
+				{
+					"name": "right_leg",
+					"parent": "copper_golem",
+					"pivot": [-2, 5, 0],
+					"cubes": [
+						{"origin": [-4, 0, -2], "size": [4, 5, 4], "uv": [16, 27]}
+					]
+				},
+				{
+					"name": "left_leg",
+					"parent": "copper_golem",
+					"pivot": [2, 5, 0],
+					"cubes": [
+						{"origin": [0, 0, -2], "size": [4, 5, 4], "uv": [0, 27]}
+					]
+				}
+			]
+		}
+	]
+}
