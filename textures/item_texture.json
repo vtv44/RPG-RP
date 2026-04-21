@@ -208,5 +208,11 @@
         },
         "first_bow": {
             "textures": "textures/items/weapons/first_bow"
+        },
+        "firstskill": {
+            "textures": "textures/items/weapons/firstskill"
+        },
+        "secondskill": {
+            "textures": "textures/items/weapons/secondskill"
         }
 }}
