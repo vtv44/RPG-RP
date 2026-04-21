@@ -14,7 +14,14 @@
             },
             "render_controllers": [
                 "controller.render.default"
-            ]
+            ],
+            "animations": {
+                "walk": "animation.rpg_copper_golem.walking",
+                "move_controller": "controller.animation.rpg_copper_golem.move"
+            },
+            "scripts": {
+                "animate": ["move_controller"]
+            }
         }
     }
 }

@@ -1,0 +1,21 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.rpg_copper_golem.move": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "transitions": [
+                        {"move": "query.is_moving"}
+                    ]
+                },
+                "move": {
+                    "animations": ["walk"],
+                    "transitions": [
+                        {"idle": "!query.is_moving"}
+                    ]
+                }
+            }
+        }
+    }
+}
