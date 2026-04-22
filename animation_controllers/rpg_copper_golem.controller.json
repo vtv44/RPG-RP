@@ -1,18 +1,27 @@
 {
     "format_version": "1.10.0",
     "animation_controllers": {
-        "controller.animation.rpg_copper_golem.move": {
+        "controller.animation.rpg_copper_golem": {
             "initial_state": "idle",
             "states": {
                 "idle": {
                     "transitions": [
+                        {"attack": "variable.attack_time > 0.0"},
                         {"move": "query.is_moving"}
                     ]
                 },
                 "move": {
                     "animations": ["walk"],
                     "transitions": [
+                        {"attack": "variable.attack_time > 0.0"},
                         {"idle": "!query.is_moving"}
+                    ]
+                },
+                "attack": {
+                    "animations": ["attack"],
+                    "transitions": [
+                        {"move": "variable.attack_time <= 0.0 && query.is_moving"},
+                        {"idle": "variable.attack_time <= 0.0 && !query.is_moving"}
                     ]
                 }
             }

@@ -17,10 +17,11 @@
             ],
             "animations": {
                 "walk": "animation.rpg_copper_golem.walking",
-                "move_controller": "controller.animation.rpg_copper_golem.move"
+                "attack": "animation.rpg_copper_golem.attack",
+                "animation_controller": "controller.animation.rpg_copper_golem"
             },
             "scripts": {
-                "animate": ["move_controller"]
+                "animate": ["animation_controller"]
             }
         }
     }
