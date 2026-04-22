@@ -20,7 +20,14 @@
 					"parent": "copper_golem",
 					"pivot": [0, 11, 0],
 					"cubes": [
-						{"origin": [-4, 11, -5], "size": [8, 5, 10], "uv": [0, 0]},
+						{"origin": [-4, 11, -5], "size": [8, 5, 10], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "antenna",
+					"parent": "head",
+					"pivot": [0, 11, 0],
+					"cubes": [
 						{"origin": [-2, 20, -2], "size": [4, 4, 4], "uv": [37, 0]},
 						{"origin": [-1, 16, -1], "size": [2, 4, 2], "uv": [37, 8]}
 					]
