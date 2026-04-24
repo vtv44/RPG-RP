@@ -214,5 +214,17 @@
         },
         "secondskill": {
             "textures": "textures/items/weapons/secondskill"
+        },
+        "fictional_sword": {
+            "textures": "textures/items/weapons/fictional_sword"
+        },
+        "fictional_rod": {
+            "textures": "textures/items/weapons/fictional_rod"
+        },
+        "fictional_book": {
+            "textures": "textures/items/weapons/fictional_book"
+        },
+        "fictional_bow": {
+            "textures": "textures/items/weapons/fictional_bow"
         }
 }}
