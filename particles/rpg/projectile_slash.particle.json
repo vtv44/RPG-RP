@@ -5,7 +5,7 @@
 			"identifier": "rpg:projectile_slash",
 			"basic_render_parameters": {
 				"material": "particles_add",
-				"texture": "textures/particle/projectile_slash"
+				"texture": "textures/particle/rpg/projectile_slash"
 			}
 		},
 		"components": {

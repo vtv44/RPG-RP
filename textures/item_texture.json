@@ -2,9 +2,6 @@
     "resource_pack_name": "KitPvP-RP",
     "texture_name": "atlas.items",
     "texture_data": {
-        "dice": {
-            "textures": "textures/items/dice"
-        },
         "hat": {
             "textures": "textures/items/hat"
         },
@@ -19,9 +16,6 @@
         },
         "crown": {
             "textures": "textures/items/crown"
-        },
-        "fireegg": {
-            "textures": "textures/items/fireegg"
         },
         "megane": {
             "textures": "textures/items/megane"
@@ -44,20 +38,8 @@
         "terraprisma": {
             "textures": "textures/items/terraprisma"
         },
-        "vtv_doll": {
-            "textures": "textures/items/vtv_doll"
-        },
         "frost": {
             "textures": "textures/items/frost"
-        },
-        "ckn_doll": {
-            "textures": "textures/items/ckn_doll"
-        },
-        "nasubi_doll": {
-            "textures": "textures/items/nasubi_doll"
-        },
-        "peppu_doll": {
-            "textures": "textures/items/peppu_doll"
         },
         "magichat": {
             "textures": "textures/items/magichat"
@@ -116,9 +98,6 @@
         "icearmor": {
             "textures": "textures/items/icearmor"
         },
-        "afuro": {
-            "textures": "textures/items/afuro"
-        },
         "aqu": {
             "textures": "textures/items/aqu"
         },
@@ -139,15 +118,6 @@
         },
         "diced_steak": {
             "textures": "textures/items/diced_steak"
-        },
-        "yuto_doll": {
-            "textures": "textures/items/yuto_doll"
-        },
-        "hr_doll": {
-            "textures": "textures/items/hr_doll"
-        },
-        "meme_doll": {
-            "textures": "textures/items/meme_doll"
         },
         "ryouri": {
             "textures": "textures/items/ryouri"

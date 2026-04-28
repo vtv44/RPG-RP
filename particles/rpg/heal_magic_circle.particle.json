@@ -5,7 +5,7 @@
 			"identifier": "rpg:heal_magic_circle",
 			"basic_render_parameters": {
 				"material": "particles_add",
-				"texture": "textures/particle/heal_magic_circle"
+				"texture": "textures/particle/rpg/heal_magic_circle"
 			}
 		},
 		"components": {
