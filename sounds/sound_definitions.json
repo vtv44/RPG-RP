@@ -1,72 +1,6 @@
 {
    "format_version" : "1.20.20",
    "sound_definitions" : { 
-        "bgm.the_end": {
-            "category": "music",
-            "sounds": [
-                {
-                    "name": "sounds/music/game/records/ward",
-                    "stream": true,
-                    "volume": 0.3,
-                    "load_on_low_memory": true
-                }
-            ]
-        },
-        "bgm.shizakura_library": {
-            "category": "music",
-            "sounds": [
-                {
-                    "name": "sounds/music/game/records/creator",
-                    "stream": true,
-                    "volume": 0.3,
-                    "load_on_low_memory": true
-                }
-            ]
-        },
-        "bgm.sky_island": {
-            "category": "music",
-            "sounds": [
-                {
-                    "name": "sounds/music/game/records/relic",
-                    "stream": true,
-                    "volume": 0.3,
-                    "load_on_low_memory": true
-                }
-            ]
-        },
-        "bgm.frozen_capital": {
-            "category": "music",
-            "sounds": [
-                {
-                    "name": "sounds/music/game/records/strad",
-                    "stream": true,
-                    "volume": 0.3,
-                    "load_on_low_memory": true
-                }
-            ]
-        },
-        "bgm.glowing_spore_cavern": {
-            "category": "music",
-            "sounds": [
-                {
-                    "name": "sounds/music/game/records/mellohi",
-                    "stream": true,
-                    "volume": 0.3,
-                    "load_on_low_memory": true
-                }
-            ]
-        },
-        "bgm.undersea_amusement_land": {
-            "category": "music",
-            "sounds": [
-                {
-                    "name": "sounds/music/game/records/cat",
-                    "stream": true,
-                    "volume": 0.3,
-                    "load_on_low_memory": true
-                }
-            ]
-        },
         "custom.travel": {
             "category": "neutral",
             "sounds": [
@@ -84,6 +18,16 @@
                     "name": "sounds/custom/The_Wither_King",
                     "stream": false,
                     "volume": 3
+                }
+            ]       
+        },
+        "custom.levelup": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/custom/levelup",
+                    "stream": false,
+                    "volume": 1
                 }
             ]       
         }
