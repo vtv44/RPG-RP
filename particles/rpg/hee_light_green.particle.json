@@ -14,7 +14,7 @@
 				"max_particles": 20
 			},
 			"minecraft:emitter_lifetime_looping": {
-				"active_time": 5
+				"active_time": 1
 			},
 			"minecraft:emitter_shape_point": {
 				"offset": ["Math.random(-4, 4)", "Math.random(-4, 4)", "Math.random(-4, 4)"]
