@@ -1,0 +1,28 @@
+{
+    "format_version": "1.21.44",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "rpg:long_copper_golem",
+            "materials": {
+                "default": "entity"
+            },
+            "textures": {
+                "default": "textures/entity/copper_golem/copper_golem"
+            },
+            "geometry": {
+                "default": "geometry.rpg_copper_golem"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "animations": {
+                "walk": "animation.rpg_copper_golem.walking",
+                "attack": "animation.rpg_copper_golem.attack",
+                "animation_controller": "controller.animation.rpg_copper_golem"
+            },
+            "scripts": {
+                "animate": ["animation_controller"]
+            }
+        }
+    }
+}
