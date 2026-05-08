@@ -196,5 +196,8 @@
         },
         "fictional_bow": {
             "textures": "textures/items/weapons/fictional_bow"
+        },
+        "rapier": {
+            "textures": "textures/items/weapons/rapier"
         }
 }}
