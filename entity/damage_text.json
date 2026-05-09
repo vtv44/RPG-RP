@@ -1,0 +1,17 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "rpg:damage_text",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "geometry": {
+                "default": "geometry.humanoid.custom"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}
