@@ -30,16 +30,6 @@
                     "volume": 1
                 }
             ]       
-        },
-        "custom.revenge": {
-            "category": "neutral",
-            "sounds": [
-                {
-                    "name": "sounds/custom/Revenge",
-                    "stream": false,
-                    "volume": 0.6
-                }
-            ]       
         }
     }
 }
