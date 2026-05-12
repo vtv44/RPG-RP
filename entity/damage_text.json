@@ -6,8 +6,11 @@
             "materials": {
                 "default": "entity_alphatest"
             },
+            "textures": {
+                "default": "textures/entity/floating_text"
+            },
             "geometry": {
-                "default": "geometry.humanoid.custom"
+                "default": "geometry.floating_text"
             },
             "render_controllers": [
                 "controller.render.default"
