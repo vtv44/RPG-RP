@@ -1,0 +1,14 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "glyph_E1.png",
+      "ascent": 16,
+      "height": 16,
+      "chars": [
+        "\uE100\uE101\uE102\uE103\uE104\uE105\uE106\uE107",
+        "\uE108\uE109\uE10A\uE10B\uE10C\uE10D\uE10E\uE10F"
+      ]
+    }
+  ]
+}
