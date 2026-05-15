@@ -1,0 +1,30 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.rpg_long_copper_golem": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "transitions": [
+                        {"target": "query.has_target"},
+                        {"move": "query.is_moving"}
+                    ]
+                },
+                "move": {
+                    "animations": ["walk"],
+                    "transitions": [
+                        {"target": "query.has_target"},
+                        {"idle": "!query.is_moving"}
+                    ]
+                },
+                "target": {
+                    "animations": ["target"],
+                    "transitions": [
+                        {"move": "!query.has_target && query.is_moving"},
+                        {"idle": "!query.has_target && !query.is_moving"}
+                    ]
+                }
+            }
+        }
+    }
+}

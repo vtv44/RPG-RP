@@ -17,8 +17,8 @@
             ],
             "animations": {
                 "walk": "animation.rpg_copper_golem.walking",
-                "attack": "animation.rpg_copper_golem.attack",
-                "animation_controller": "controller.animation.rpg_copper_golem"
+                "target": "animation.rpg_copper_golem.shoot",
+                "animation_controller": "controller.animation.rpg_long_copper_golem"
             },
             "scripts": {
                 "animate": ["animation_controller"]
