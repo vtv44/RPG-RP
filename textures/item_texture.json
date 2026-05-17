@@ -199,5 +199,17 @@
         },
         "rapier": {
             "textures": "textures/items/weapons/rapier"
+        },
+        "stardust_sand": {
+            "textures": "textures/items/materials/stardust_sand"
+        },
+        "slumber_shell": {
+            "textures": "textures/items/materials/slumber_shell"
+        },
+        "azure_coral": {
+            "textures": "textures/items/materials/azure_coral"
+        },
+        "phantom_crystal": {
+            "textures": "textures/items/materials/phantom_crystal"
         }
 }}
